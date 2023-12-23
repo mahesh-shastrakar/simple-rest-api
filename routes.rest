@@ -1,0 +1,29 @@
+GET http://localhost:3000/data
+
+###
+
+GET http://localhost:3000/data/6586c16ca82de42d91089841
+
+###
+
+POST http://localhost:3000/data
+Content-Type: application/json
+
+{
+    "name" : "dummy",
+    "age" : 19
+}
+
+###
+
+DELETE http://localhost:3000/data/6586c196a82de42d9108984a
+
+### 
+
+PATCH http://localhost:3000/data/6586c196a82de42d9108984a
+Content-Type: application/json
+
+{
+    "name": "MAHESH",
+    "age":20
+}
