@@ -4,7 +4,8 @@
   "description": "a simple rest api using node js, express js, mongodb, etc",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon index.js" 
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "mahesh-shastrakar",
   "license": "ISC",
